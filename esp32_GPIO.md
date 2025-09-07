@@ -38,7 +38,7 @@ mode：GPIO模式（GPIO_MODE_INPUT/GPIO_MODE_OUTPUT等）
 **返回值：**
 ESP_OK：操作成功
 ESP_ERR_INVALID_ARG：参数错误
-**作用：**设置GPIO引脚的方向
+**作用：**设置某个 GPIO 引脚的工作模式（输入、输出、开漏）
 
 ### gpio_input_enable
 **函数原型：**
